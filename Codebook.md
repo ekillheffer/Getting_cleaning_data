@@ -1,4 +1,4 @@
-The script run_analysis.R completes the following 5 steps:
+#  The script run_analysis.R completes the following 5 steps:
 
 1. Reads the test group data, the training group data, the activity list, and the subject data files
 2. Combines the test and training groups into one data set
@@ -6,7 +6,7 @@ The script run_analysis.R completes the following 5 steps:
 4. Labels the activities and assigns names to activities in data set
 5. Creates a tidy dataset with average of measurements for each subject/activity combination
 
-Transformations performed in code:
+#  Transformations performed in code:
 
 - train and test data is merged with rbind
 - train and test labels are merged with rbind
